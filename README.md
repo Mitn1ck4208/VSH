@@ -1,5 +1,3 @@
-# ESS
-Easy Security Setup For Linux Server (Debian Base) .
 # VPS Security Hardener 🔒
 
 An automated bash script for hardening Ubuntu/Debian VPS security with comprehensive logging to text files.
