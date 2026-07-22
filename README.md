@@ -2,7 +2,7 @@
 
 An automated bash script for hardening Ubuntu/Debian VPS security with comprehensive logging to text files.
 
-**GitHub:** https://github.com/Mitn1ck4208/vsh
+**GitHub:** https://github.com/Mitn1ck4208/VSH
 
 ## Features
 
