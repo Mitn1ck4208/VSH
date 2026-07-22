@@ -43,8 +43,8 @@ An automated bash script for hardening Ubuntu/Debian VPS security with comprehen
 
 ### Clone the repository
 ```bash
-git clone https://github.com/yourusername/vps-security-hardener.git
-cd vps-security-hardener
+git clone https://github.com/Mitn1ck4208/VSH.git
+cd VSH
 ```
 
 ### Make script executable
