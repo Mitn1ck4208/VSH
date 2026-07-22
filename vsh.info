@@ -1,0 +1,120 @@
+# VSH - VPS Security Hardener
+# Project Metadata
+# ===============
+
+# Project Information
+PROJECT_NAME="VSH"
+PROJECT_FULL_NAME="VPS Security Hardener"
+PROJECT_DESCRIPTION="Automated security hardening for Ubuntu/Debian VPS with text-based logging"
+
+# Version Information
+VERSION="1.0.0"
+RELEASE_DATE="2024-01-15"
+STATUS="stable"
+STABILITY_LEVEL="production-ready"
+
+# Author Information
+AUTHOR="Mitn1ck4208"
+AUTHOR_EMAIL="Mitn1ck4208@users.noreply.github.com"
+LICENSE="MIT"
+
+# GitHub Information
+GITHUB_OWNER="Mitn1ck4208"
+GITHUB_REPO="vsh"
+GITHUB_URL="https://github.com/Mitn1ck4208/vsh"
+GITHUB_ISSUES="https://github.com/Mitn1ck4208/vsh/issues"
+
+# Repository Information
+REPO_MAIN_BRANCH="main"
+REPO_DEV_BRANCH="develop"
+DEFAULT_BRANCH="main"
+
+# Compatibility
+MIN_BASH_VERSION="4.0"
+SUPPORTED_OS=("Ubuntu 22.04 LTS" "Ubuntu 20.04 LTS" "Debian 11" "Debian 12")
+PACKAGE_MANAGER="apt"
+
+# Features
+FEATURES=(
+    "SSH Hardening"
+    "Firewall Configuration"
+    "Fail2Ban Setup"
+    "System Updates"
+    "Service Hardening"
+    "Permission Auditing"
+    "Text-Based Logging"
+)
+
+# Documentation
+DOCS_README="README.md"
+DOCS_SETUP="SETUP.md"
+DOCS_CONTRIBUTING="CONTRIBUTING.md"
+DOCS_SECURITY="SECURITY.md"
+DOCS_CHANGELOG="CHANGELOG.md"
+LICENSE_FILE="LICENSE"
+
+# Script Information
+MAIN_SCRIPT="hardener.sh"
+CONFIG_FILE="security.conf"
+LOG_DIRECTORY="logs"
+LOG_RETENTION_DAYS=30
+
+# Performance
+ESTIMATED_EXECUTION_TIME="2-5 minutes"
+DISK_SPACE_REQUIRED="100MB"
+MEMORY_REQUIRED="512MB"
+
+# Dependencies
+REQUIRED_TOOLS=("apt-get" "sudo" "bash")
+OPTIONAL_TOOLS=("git" "curl")
+MANAGED_TOOLS=("ufw" "fail2ban")
+
+# Keywords
+KEYWORDS=("security" "hardening" "vps" "ubuntu" "debian" "bash" "shell" "firewall" "ssh" "fail2ban")
+
+# Support and Community
+BUG_TRACKER="https://github.com/Mitn1ck4208/vsh/issues"
+DISCUSSION_FORUM="https://github.com/Mitn1ck4208/vsh/discussions"
+WIKI="https://github.com/Mitn1ck4208/vsh/wiki"
+
+# Release Information
+RELEASE_NOTES="See CHANGELOG.md for detailed release notes"
+BREAKING_CHANGES="None in v1.0.0"
+DEPRECATIONS="None"
+
+# Update and Maintenance
+MAINTENANCE_STATUS="actively developed"
+SECURITY_PATCH_RESPONSE_TIME="24-48 hours"
+MAJOR_VERSION_CYCLE="12 months"
+MINOR_VERSION_CYCLE="3 months"
+
+# Contact and Contribution
+CONTRIBUTION_GUIDELINES="See CONTRIBUTING.md"
+CODE_OF_CONDUCT="See CONTRIBUTING.md for expectations"
+SECURITY_POLICY="See SECURITY.md for vulnerability reporting"
+
+# Metrics and Analytics
+GITHUB_STARS="[To be updated after release]"
+GITHUB_FORKS="[To be updated after release]"
+GITHUB_WATCHERS="[To be updated after release]"
+GITHUB_ISSUES_OPEN="[To be updated after release]"
+
+# Compliance
+COMPLIES_WITH=("OWASP Guidelines" "CIS Benchmarks" "NIST Framework")
+
+# Additional Information
+SOURCE_CODE_FORMAT="Bash Script"
+TESTING_FRAMEWORK="Manual Testing"
+CI_CD_SYSTEM="GitHub Actions (planned)"
+
+# File Sizes
+MAIN_SCRIPT_SIZE="~15KB"
+CONFIG_FILE_SIZE="~1KB"
+TOTAL_PROJECT_SIZE="~50KB"
+
+# Archived Versions
+PREVIOUS_VERSIONS="First public release - no previous versions"
+
+# End of Metadata
+LAST_UPDATED="2024-01-15"
+METADATA_VERSION="1.0"

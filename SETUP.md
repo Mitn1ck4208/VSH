@@ -1,16 +1,16 @@
-# Quick Start Guide
+# Quick Start Guide - VSH
 
 ## Step 1: Prepare Your Local Repository
 
 ```bash
 # Create project directory
-mkdir vps-security-hardener
-cd vps-security-hardener
+mkdir vsh
+cd vsh
 
 # Initialize git
 git init
-git config user.name "Your Name"
-git config user.email "your.email@example.com"
+git config user.name "Mitn1ck4208"
+git config user.email "Mitn1ck4208@users.noreply.github.com"
 ```
 
 ## Step 2: Add Project Files
@@ -40,7 +40,7 @@ touch logs/.gitkeep
 git add .
 
 # Create first commit
-git commit -m "Initial commit: VPS Security Hardener with logging system"
+git commit -m "Initial commit: VSH - VPS Security Hardener with logging system"
 
 # Check status
 git status
@@ -49,16 +49,16 @@ git status
 ## Step 4: Create GitHub Repository
 
 1. Go to https://github.com/new
-2. Fill in repository name: `vps-security-hardener`
-3. Add description: "Automated security hardening for Ubuntu/Debian VPS with text-based logging"
+2. Fill in repository name: `vsh`
+3. Add description: "VSH - Automated security hardening for Ubuntu/Debian VPS with text-based logging"
 4. Choose visibility: **Public** (for sharing)
 5. Click "Create repository"
 
 ## Step 5: Connect to GitHub
 
 ```bash
-# Add remote origin (replace USERNAME with your GitHub username)
-git remote add origin https://github.com/USERNAME/vps-security-hardener.git
+# Add remote origin with your username (Mitn1ck4208)
+git remote add origin https://github.com/Mitn1ck4208/vsh.git
 
 # Rename branch to main (if needed)
 git branch -M main
@@ -70,9 +70,10 @@ git push -u origin main
 ## Step 6: Verify
 
 Check your GitHub repository:
-- https://github.com/USERNAME/vps-security-hardener
+- https://github.com/Mitn1ck4208/vsh
 - Verify all files are present
 - Check README renders correctly
+- Confirm logs directory is empty (only .gitkeep)
 
 ## Testing Locally
 
@@ -105,17 +106,16 @@ ssh -v user@test-vm
 ## Project Structure
 
 ```
-vps-security-hardener/
+vsh/
 ├── .git/                      # Git repository (created by git init)
 ├── .gitignore                 # Git ignore file
 ├── README.md                  # Main documentation
 ├── SETUP.md                   # This file
+├── LICENSE                    # MIT License
 ├── hardener.sh                # Main script (executable)
 ├── security.conf              # Configuration file
 └── logs/                      # Log files (created by script)
-    ├── .gitkeep               # Keep directory in git
-    ├── security_hardening_20240115_143022.log
-    └── errors_20240115_143022.log
+    └── .gitkeep               # Keep directory in git
 ```
 
 ## Next Steps

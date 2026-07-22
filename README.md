@@ -2,6 +2,8 @@
 
 An automated bash script for hardening Ubuntu/Debian VPS security with comprehensive logging to text files.
 
+**GitHub:** https://github.com/Mitn1ck4208/vsh
+
 ## Features
 
 ✅ **SSH Hardening**
@@ -242,6 +244,6 @@ This script modifies system security configurations. Use at your own risk. Alway
 
 ---
 
-**Last Updated:** July 2026
+**Last Updated:** January 2024
 **Version:** 1.0
 **Tested On:** Ubuntu 22.04 LTS, Ubuntu 20.04 LTS, Debian 11

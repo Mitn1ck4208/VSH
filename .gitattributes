@@ -1,0 +1,39 @@
+# Git Attributes for VSH Project
+# ==============================
+
+# Auto detect text files and normalize line endings to LF
+* text=auto
+
+# Bash script files
+*.sh text eol=lf
+*.bash text eol=lf
+
+# Documentation files
+*.md text eol=lf
+*.txt text eol=lf
+
+# Configuration files
+*.conf text eol=lf
+*.config text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# JSON and YAML
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+
+# License and meta
+LICENSE text eol=lf
+AUTHORS text eol=lf
+CONTRIBUTORS text eol=lf
+README* text eol=lf
+CHANGELOG* text eol=lf
+CONTRIBUTING* text eol=lf
+SECURITY* text eol=lf
+SETUP* text eol=lf
+
+# Windows specific
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
