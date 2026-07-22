@@ -144,6 +144,6 @@ This project is licensed under the MIT License - see LICENSE file for details.
 
 ---
 
-**Latest Update:** January 15, 2024
+**Latest Update:** July 2024
 **Current Version:** 1.0.0
 **Next Release:** Q2 2024
