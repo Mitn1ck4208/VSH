@@ -242,6 +242,6 @@ This script modifies system security configurations. Use at your own risk. Alway
 
 ---
 
-**Last Updated:** January 2024
+**Last Updated:** July 2026
 **Version:** 1.0
 **Tested On:** Ubuntu 22.04 LTS, Ubuntu 20.04 LTS, Debian 11
